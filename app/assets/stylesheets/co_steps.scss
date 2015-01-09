@@ -63,6 +63,7 @@ h3 {
 	text-align: center;
 	background-image: url("cover.jpg");
 	}
+
 #welcome h4{
 	color: black;
 	font-size: 22px;
@@ -70,28 +71,14 @@ h3 {
 	height:70px;
 	}
 
-#nanairo-picture {
-	background-image: url("nanairo.png");
-}
 
-#nao-picture {
-	background-image: url("nao.png");
-}
-
-#fablearning-picture{
-	background-image: url("fablearning.png");
-}
-
-#fami-picture{
-	background-image: url("fami.png");
-}
 
 
 
 
 #work {
 	text-align: center;
-	background: white;
+	background: #CCFFFF;
    	height: 100vh;
 
 }
@@ -101,7 +88,7 @@ h3 {
 	z-index: 0;
 	height: 100vh;
 	width: 100%;
-	background: white;
+	background: #CCFFFF;
 }
 
 
@@ -111,7 +98,7 @@ h3 {
 	z-index: 0;
 	height: 100vh;
 	width: 100%;
-	background: green;
+	background: #66FFFF;
 }
 
 #member {
@@ -119,7 +106,7 @@ h3 {
 	z-index: 0;
 	height: 100vh;
 	width: 100%;
-	background: white;
+	background: #CCFFFF;
 }
 
 #company {
@@ -127,7 +114,7 @@ h3 {
 	z-index: 0;
 	height: 100vh;
 	width: 100%;
-	background: red;
+	background: #33FFFF;
 }
 
 #contact {
@@ -166,19 +153,17 @@ h3 {
 	z-index: 0;
 	height: 100vh;
 	width: 100%;
-	background: blue;
+	background: #33FFFF;
 }
    
-
-
-
-
+/*WorksのCSS*/
 
 #projects {
 	z-index: 0;
 	width: 100%;
 	background: white;
 	text-align: center;
+	margin-left: 20px;
 }
 
 #projects > h2{
@@ -190,7 +175,7 @@ h3 {
 #contact {
 	z-index: 0;
 	width: 100%;
-	background: white;
+	background: #CCFFFF;
 	text-align: center;
 }
 

@@ -66,3 +66,31 @@
 	cursor: pointer;
 	color: #7c2728;
 }
+
+#nanairo-picture {
+	background-image: url("nanairo.png");
+	background-size: cover; /*ポイント!!!*/
+	width: 100%;
+	height: 100%; /*ここ変えて、収まった。*/
+}
+
+#nao-picture {
+	background-image: url("nao.png");
+	background-size: cover; /*ポイント!!!*/
+	width: 100%;
+	height: 100%; /*ここ変えて、収まった。*/
+}
+
+#fablearning-picture{
+	background-image: url("fablearning.png");
+	background-size: cover; /*ポイント!!!*/
+	width: 100%;
+	height: 100%; /*ここ変えて、収まった。*/
+}
+
+#fami-picture{
+	background-image: url("fami.png");
+	background-size: cover; /*ポイント!!!*/
+	width: 100%;
+	height: 100%; /*ここ変えて、収まった。*/
+}
