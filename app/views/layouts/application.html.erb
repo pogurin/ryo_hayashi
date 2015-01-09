@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RyoHayashi</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav>
+		<div id="hideBox">
+			<p id="pageTop" >Co-Steps</p>
+			<p class="nButton" id="worknav" >Work</p>
+			<p class="nButton" id="pressnav">Press</p>
+			<p class="nButton" id="recruitnav">Recruit</p>
+			<p class="nButton" id="visionnav">Our vision</p>
+			<p class="nButton" id="mambernav">Member</p>
+			<p class="nButton" id="companynav">Company</p>
+			<p class="nButton" id="contactnav">Contact</p>
+		</div>
+	</nav>
+
+	
+
+<%= yield %>
+
+</body>
+</html>
