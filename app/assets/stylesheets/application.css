@@ -21,7 +21,7 @@
 	position: fixed;
 	height: 100%;
 	width: 15%;
-	opacity: 0.9;
+	opacity: 0.6;
 }
 
 #pageTop {
@@ -37,7 +37,7 @@
 
 .nButton {
 	font-family: 'Maven Pro';
-	font-size: 18px;
+	font-size: 28px;
 	color: black;
 	text-decoration: none;
 	margin: 10px 20px 10px 20px;
