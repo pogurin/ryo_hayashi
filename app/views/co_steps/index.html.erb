@@ -1,12 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 <head>
 	<title>Co-Steps</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/nbw-parallax.js"></script>
+	<script type="text/javascript" src="scripts/jquery.inview.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script src="script.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
-
 	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" />
+	<script type="text/javascript">
+	$(document).ready(function(){
+	$('#nav').localScroll();
+	})
+	</script>
 </head>
 <body>
 
@@ -37,11 +47,9 @@
    
 
 	<div id="press">
-	<div id="modal-content">
-</div>
-		<div class="textBlock">
-			<h2>Press</h2><br/>
-				
+		<div id="modal-content">
+			<div class="textBlock">
+				<h2>Press</h2><br/>	
 				<div class="box_srcollbar">
 				   <h4>2014.07.22 学生・若手社会人向け求人サイト、「Co-Step」をリリース！</h4>
 				   <h4>2014.07.20 弊社代表が○○向け講演会に登壇しました</h4>
@@ -64,7 +72,7 @@
 				   <h4>2014.07.18 弊社サービス「Co-Step」が○○ビジネスにて紹介されました。</h4>
 				   <h4>2014.07.18 弊社サービス「Co-Step」が○○ビジネスにて紹介されました。</h4>
 				</div>
-			
+			</div>
 		</div>
 	</div>
 

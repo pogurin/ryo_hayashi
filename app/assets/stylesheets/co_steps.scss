@@ -61,7 +61,7 @@ h3 {
 	width: 100%;
 	background-size: cover;
 	text-align: center;
-	background-image: url("cover.jpg");
+	background-image: url("cover.jpg") ;
 	}
 
 #welcome h4{
@@ -71,15 +71,11 @@ h3 {
 	height:70px;
 	}
 
-
-
-
-
-
 #work {
 	text-align: center;
 	background: #CCFFFF;
    	height: 100vh;
+   	background: url("fami.png") 50% 0 no-repeat fixed;
 
 }
 
