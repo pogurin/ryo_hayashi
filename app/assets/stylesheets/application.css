@@ -19,13 +19,15 @@
 
 
 #logo-picture     {
-	margin-top: 10px;
-	margin-left: 5px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
 	z-index: 0;
 	background: url("co-step.jpg");
 	background-size: cover; /*ポイント!!!*/
 	width: 160px;
-	height: 80px;
+	height: 100px; /*ここ変えて、収まった。*/
 
 }
 
