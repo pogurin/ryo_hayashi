@@ -37,6 +37,7 @@ h3 {
 	height: 100%;
 	width: 15%;
 	opacity: 0.9;
+
 }
 
 
@@ -49,6 +50,7 @@ h3 {
 	margin: 10px 20px 10px 20px;
 	display: float-left;
 	opacity: 1;
+	z-index: 3;
 }
 
 .nButton:hover, #pageTop:hover {
@@ -57,7 +59,7 @@ h3 {
 }
 
 #welcome {
-	height: 100vh;
+	height: 150vh;
 	text-align: center;
 	background: url("cover.png") 50% 0 no-repeat fixed;
 
@@ -74,23 +76,42 @@ h3 {
 #work {
 	text-align: center;
 	background: #CCFFFF;
-   	height: 100vh;
+   	height: 150vh;
    	background: url("bubbles.png") 50% 0 no-repeat fixed;
 
 }
+
+	#work .bg{
+	background: url("bubbles2.png") 50% 0 no-repeat ;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 200;
+}
+
+
     #press {
 	text-align: center;
 	background: #CCFFFF;
-   	height: 100vh;
-   	background: url("bubbles.png") 50% 0 no-repeat fixed;
+   	height: 150vh;
+   	background: url("bubbles.png") 50% 0 repeat fixed;
+   	background-color: #036;
+}
+
+#press h4 {
+	font-size: 20px;
 
 }
+
+
 
 #recruit {
 	text-align: center;
 	background: #CCFFFF;
-   	height: 100vh;
-   	background: url("bubbles.png") 50% 0 no-repeat fixed;
+   	height: 150vh;
+   	background: url("bubbles2.png") 50% 0 no-repeat fixed;
 }
 
 
@@ -98,30 +119,32 @@ h3 {
 #vision {
 	text-align: center;
 	background: #CCFFFF;
-   	height: 100vh;
+   	height: 150vh;
    	background: url("bubbles.png") 50% 0 no-repeat fixed;
+   	background-color: #CCFFFF; /*背景色してい*/
+
 }
 
 #member {
 	text-align: center;
 	background: #CCFFFF;
-   	height: 100vh;
-   	background: url("bubbles.png") 50% 0 no-repeat fixed;
+   	height: 150vh;
+   	background: url("bubbles.png") 50% 0 repeat fixed;
 }
 
 #company {
 	text-align: center;
-	background: #CCFFFF;
-   	height: 100vh;
-   	background: url("bubbles.png") 50% 0 no-repeat fixed;
+	background: red;
+   	height: 150vh;
+   	background: url("bubbles2.png") 50% 0 no-repeat fixed;
+   	background-color: #CCFFFF; /*背景色してい*/
 }
 
 #contact {
 	text-align: center;
-	z-index: 0;
-	height: 100vh;
-	width: 100%;
-	background: yellow;
+	background: #CCFFFF;
+   	height: 150vh;
+   	background: url("bubbles.png") 50% 0 no-repeat fixed;
 }
 .textBlock {
 	margin-top: 20px;
@@ -135,8 +158,8 @@ h3 {
 
  .box_srcollbar {
         overflow:auto;
-        width:650px;
-        height:300px;
+        width:750px;
+        height:500px;
         padding:5px;
         border:1px solid #000;
         background-color:#F9F9F9;
@@ -164,12 +187,7 @@ h3 {
 	color: black;
 }
 
-#contact {
-	z-index: 0;
-	width: 100%;
-	background: #CCFFFF;
-	text-align: center;
-}
+
 
 #contact  h2 {
 	margin-top: 10px;
