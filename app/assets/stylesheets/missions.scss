@@ -1,0 +1,49 @@
+#logo-picture     {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	z-index: 0;
+	background: url("co-step.jpg");
+	background-size: cover; /*ポイント!!!*/
+	width: 160px;
+	height: 100px; /*ここ変えて、収まった。*/
+
+}
+
+
+#hideBox {
+	display: none;
+	z-index: 1;
+	background-color: #F8F8FF;
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	opacity: 0.6;
+}
+
+#pageTop {
+	font-family: 'Maven Pro';
+	font-size: 28px;
+	color: black;
+	text-decoration: none;
+	margin: 10px 20px 10px 20px;
+	display: float-left;
+	opacity: 1;
+}
+
+.nButton {
+	font-family: 'Maven Pro';
+	font-size: 28px;
+	color: black;
+	text-decoration: none;
+	margin: 10px 20px 10px 20px;
+	display: float-left;
+	opacity: 1;
+}
+
+.nButton:hover, #pageTop:hover {
+	cursor: pointer;
+	color: #7c2728;
+}
+

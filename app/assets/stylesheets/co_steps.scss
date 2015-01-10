@@ -8,6 +8,8 @@
 	
 }
 
+
+
 #logo-picture     {
 	margin-top: 30px;
 	margin-left: 20px;
@@ -159,16 +161,19 @@ h3 {
     #press {
 	text-align: center;
 	background: #CCFFFF;
-   	height: 150vh;
+   	height: 180vh;
    	background: url("bubbles.png") 50% 0 repeat fixed;
    	background-color: #036;
 }
 
 #press h4 {
 	font-size: 20px;
-
 }
 
+#press h2 {
+	font-size: 40px;
+	color: white;
+}
 
 
 #recruit {
@@ -200,15 +205,27 @@ h3 {
 
 #member img {
 	margin-top: 30px;
-	margin-left: 30px;
+	margin-left: 20px;
+	
 	z-index: 0;
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
 	border: 4px solid black;
-
 }
 
+hr {
+	border-top: 5px solid black;
+	width: 850px;
+	margin-right:20%; 
+}
+
+#place {
+	color:black;
+	
+	padding-left:100px; 
+	padding-top:300px;
+}
 
 #company {
 	text-align: center;
