@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Co-Step</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<nav>
+		<div id="hideBox">
+		<div id="logo-picture">
+			
+		</div>
+			<p class="nButton" id="pageTop" ><%= link_to "Home", co_steps_path %></p>
+			
+		</div>
+	</nav>
+
+
 <div id="projects">
 		<h2>Works</h2><br/>
 		<div class="row-one">
@@ -45,7 +66,8 @@
 			</div>  
 		</div>    
 	</div>
+	<div style="border-style: solid ; border-width: 5px; padding: 10px 50px 20px; border-radius: 10px;"><h2><%= link_to "back", co_steps_path %></h2>
 </div>
 
-	<div style="border-style: solid ; border-width: 5px; padding: 10px 50px 20px; border-radius: 10px;"><h2><%= link_to "back", co_steps_path %></h2>
-
+</body>
+</html>
