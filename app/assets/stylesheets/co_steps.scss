@@ -57,60 +57,63 @@ h3 {
 }
 
 #welcome {
-	height: 730px;
-	width: 100%;
-	background-size: cover;
+	height: 100vh;
 	text-align: center;
-	background-image: url("cover.jpg") ;
-	}
+	background: url("cover.png") 50% 0 no-repeat fixed;
 
+	background-size: cover; /*ポイント!!!*/
+	}
+/*
 #welcome h4{
 	color: black;
-	font-size: 22px;
+	
 	
 	height:70px;
-	}
+	}*/
 
 #work {
 	text-align: center;
 	background: #CCFFFF;
    	height: 100vh;
-   	background: url("fami.png") 50% 0 no-repeat fixed;
+   	background: url("bubbles.png") 50% 0 no-repeat fixed;
+
+}
+    #press {
+	text-align: center;
+	background: #CCFFFF;
+   	height: 100vh;
+   	background: url("bubbles.png") 50% 0 no-repeat fixed;
 
 }
 
 #recruit {
 	text-align: center;
-	z-index: 0;
-	height: 100vh;
-	width: 100%;
 	background: #CCFFFF;
+   	height: 100vh;
+   	background: url("bubbles.png") 50% 0 no-repeat fixed;
 }
 
 
 
 #vision {
 	text-align: center;
-	z-index: 0;
-	height: 100vh;
-	width: 100%;
-	background: #66FFFF;
+	background: #CCFFFF;
+   	height: 100vh;
+   	background: url("bubbles.png") 50% 0 no-repeat fixed;
 }
 
 #member {
 	text-align: center;
-	z-index: 0;
-	height: 100vh;
-	width: 100%;
 	background: #CCFFFF;
+   	height: 100vh;
+   	background: url("bubbles.png") 50% 0 no-repeat fixed;
 }
 
 #company {
 	text-align: center;
-	z-index: 0;
-	height: 100vh;
-	width: 100%;
-	background: #33FFFF;
+	background: #CCFFFF;
+   	height: 100vh;
+   	background: url("bubbles.png") 50% 0 no-repeat fixed;
 }
 
 #contact {
@@ -144,13 +147,6 @@ h3 {
         border-radius: 10px;
     }
 
-    #press {
-	text-align: center;
-	z-index: 0;
-	height: 100vh;
-	width: 100%;
-	background: #33FFFF;
-}
    
 /*WorksのCSS*/
 
