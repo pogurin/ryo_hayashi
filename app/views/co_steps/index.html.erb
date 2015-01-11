@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script src="script.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" />
+<!-- 	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" /> -->
 	<script type="text/javascript">
 	$(document).ready(function(){
 	$('#nav').localScroll();
@@ -154,15 +154,19 @@
    
 			    <table class="table">
 			      <tr>
-			        <th>名前<span class="text-danger">（必須）</span></th>
+			        <th>名前<span class="text-danger">*必須</span></th>
 			        <td><%= f.text_field :name %></td>
 			      </tr>
 			      <tr>
-			        <th>メールアドレス<span class="text-danger">（必須）</span></th>
+			        <th>メールアドレス<span class="text-danger">*必須</span></th>
+			        <td><%= f.text_field :email %></td>
+			      </tr>
+			       <tr>
+			        <th>メールアドレス(確認用)<span class="text-danger">*必須</span></th>
 			        <td><%= f.text_field :email %></td>
 			      </tr>
 			      <tr>
-			        <th>志望理由</th>
+			        <th>志望理由 *必須</th>
 			        <td><%= f.text_area :message %></td>
 			      </tr>
 			    </table>
@@ -307,7 +311,7 @@
 		<p>・ＷEBサイト及びＷEBコンテンツの企画、制作、デザイン、運営、保守及び管理</p>
 		<p>・人材採用、人材育成に関する支援、企画、運営及びコンサルティング</p>
 		<p>・進路教育及びキャリア教育に関する支援並びにサービスの企画、運営</p>
-			<hr />
+			
 			
 			
 		</div>
@@ -343,15 +347,19 @@
    
     <table class="table">
       <tr>
-        <th>名前<span class="text-danger">（必須）</span></th>
+        <th>名前<span class="text-danger">*必須</span></th>
         <td><%= f.text_field :name %></td>
       </tr>
       <tr>
-        <th>メールアドレス<span class="text-danger">（必須）</span></th>
+        <th>メールアドレス<span class="text-danger">*必須</span></th>
         <td><%= f.text_field :email %></td>
       </tr>
+        <tr>
+		<th>メールアドレス(確認用)<span class="text-danger">*必須</span></th>
+		<td><%= f.text_field :email %></td>
+		</tr>
       <tr>
-        <th>お問い合わせ内容</th>
+        <th>お問い合わせ内容 *必須</th>
         <td><%= f.text_area :message %></td>
       </tr>
     </table>

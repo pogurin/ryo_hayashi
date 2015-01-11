@@ -34,6 +34,7 @@
 }
 
 
+
 #hideBox {
 	display: none;
 	z-index: 1;
@@ -131,9 +132,10 @@
     text-decoration:underline;
 }
 
+/*マウスオーバーの際の色の変化*/
 .modal-open:hover {
     cursor:pointer;
-    color:#f00;
+    color:white;
 }
 
 .modal-close {
