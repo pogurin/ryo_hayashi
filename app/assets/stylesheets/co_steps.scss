@@ -77,12 +77,14 @@ nav {
 	position: fixed;
 }
 
-h1 {
+.textBlock h1 {
 	font-size: 80px;
 	margin: 0px;
 	padding: 220px ;
 	padding-bottom: 0px;
 }
+
+
 
 
 
@@ -202,6 +204,12 @@ h3 {
    	background: url("bubbles.png") 50% 0 no-repeat fixed;
    	background-color: #CCFFFF; /*背景色してい*/
 
+}
+
+#vision h1 {
+	font-size: 70px;
+	padding-top: 10px;
+	
 }
 
 #member {
