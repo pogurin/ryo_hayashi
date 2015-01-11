@@ -189,7 +189,7 @@ h3 {
 #recruit {
 	text-align: center;
 	background: #CCFFFF;
-   	height: 150vh;
+   	height: 200vh;
    	background: url("bubbles2.png") 50% 0 no-repeat fixed;
 }
 
@@ -197,10 +197,14 @@ h3 {
 
 #vision {
 	text-align: center;
-	background: #CCFFFF;
+	background-color:white ;
    	height: 300vh;
    	background: url("bubbles.png") 50% 0 no-repeat fixed;
-   	background-color: #CCFFFF; /*背景色してい*/
+   	 /*背景色してい*/
+}
+
+.more {
+	font-size: 30px;
 }
 
 #member {
@@ -232,6 +236,12 @@ h3 {
 
 hr {
 	border-top: 5px solid black;
+	width: 850px;
+	margin-right:20%; 
+}
+
+#company hr {
+	border-top: 1px solid black;
 	width: 850px;
 	margin-right:20%; 
 }
