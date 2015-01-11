@@ -84,14 +84,21 @@ $(document).ready(function() {
 			scrollTop: $("#contact").offset().top
 		}, 1000);
 	});
-
-	
-
-
-
-	// $('#hideBox').blurjs({
-	// 	source: '#welcome',
-	// 	radius: 30,
-	// 	overlay: 'rgba(0, 0, 0, .2)'
-	// });
 });
+
+
+$(function(){
+	$('.btns').click(function(){
+		wn = '.' + $(this).data('tgt');
+		var mW = $(wn).find('.modalBody').innerWidth() / 2;
+		var mH = $(wn).find('.modalBody').innerHeight() / 2;
+		$(wn).find('.modalBody').css({'margin-left':-mW,'margin-top':-mH});
+		$(wn).fadeIn(500);
+	});
+	$('.close,.modalBK').click(function(){
+		$(wn).fadeOut(500);
+	});
+});
+
+
+
