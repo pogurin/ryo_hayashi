@@ -138,7 +138,8 @@ h3 {
 	text-align: center;
 	background: #CCFFFF;
    	height: 150vh;
-   	background: url("bubbles.png") 50% 0 no-repeat fixed;
+   	background: url("work.JPG") 50% 0 no-repeat fixed;
+   	background-size: cover; /*ポイント!!!*/
 }
 
 #link_to_portfolio {
@@ -164,8 +165,9 @@ h3 {
 	text-align: center;
 	background: #CCFFFF;
    	height: 180vh;
-   	background: url("bubbles2.png") 50% 0 repeat fixed;
+   	background: url("press.JPG") 50% 0 repeat fixed;
    	background-color: white;
+   	background-size: cover; /*ポイント!!!*/
 }
 
 #press h4 {
@@ -189,7 +191,8 @@ h3 {
 	text-align: center;
 	background: #CCFFFF;
    	height: 200vh;
-   	background: url("https://fablic.co.jp/wp-content/uploads/DSC_0399-1600x799.jpg") 50% 0 no-repeat fixed;
+   	background: url("recruit.JPG") 50% 0 no-repeat fixed;
+   	background-size: cover; /*ポイント!!!*/
 }
 
 .alertalert-danger {
@@ -202,10 +205,9 @@ h3 {
 
 #vision {
 	text-align: center;
-	background-color:white ;
    	height: 100%;
    	padding-bottom:50px;
-   	background: url("bubbles.png") 50% 0 no-repeat fixed;
+   	background: url("vision.JPG") 50% 0 repeat fixed;
    	 /*背景色してい*/
 }
 
@@ -217,7 +219,8 @@ h3 {
 	text-align: center;
 	background: #CCFFFF;
    	height: 150vh;
-   	background: url("http://info.storys.jp/uploads/7/7/0/3/7703116/9861156_orig.jpg") 50% 0 repeat fixed;
+   	background: url("member.JPG") 50% 0 repeat fixed;
+   	background-size: cover; /*ポイント!!!*/
 }
 
 .pictures-one {
@@ -268,8 +271,9 @@ hr {
 	text-align: center;
 	padding-top:100px;
    	height: 200vh;
-   	background: url("bubbles2.png") 50% 0 no-repeat fixed;
+   	background: url("company.JPG") 50% 0 no-repeat fixed;
    	background-color: white; /*背景色してい*/
+   	background-size: cover; /*ポイント!!!*/
 }
 
 #contact {
@@ -278,7 +282,7 @@ hr {
 	text-align: center;
 	background-color: #CCFFFF;
    	height: 100vh;
-   	background: url("nao.png") 50% 0 no-repeat fixed;
+   	background: url("contact.JPG") 50% 0 no-repeat fixed;
 }
 .textBlock {
 	margin-top: 10px;

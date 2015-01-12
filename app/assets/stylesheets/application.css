@@ -147,3 +147,12 @@
     cursor:pointer;
     color:#f00;
 }
+
+
+/*リクルート画面のCSS*/
+.recruit-layout {
+	
+	background: url("recruit.JPG") 50% 0 no-repeat fixed;
+	height: 250vh;
+	background-size: cover; /*ポイント!!!*/
+}
