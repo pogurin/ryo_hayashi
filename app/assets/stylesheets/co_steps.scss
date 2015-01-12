@@ -300,12 +300,13 @@ hr {
         height:500px;
         padding:5px;
         border:1px solid #000;
-        background-color:#F9F9F9;
+        background-color:#DDDDDD(0,0,0,0.75);
         color:#000;
         font-size:12px;
         border-width: 5px;
         padding: 10px 50px 20px; 
         border-radius: 10px;
+        z-index: -5;
     }
 
    
