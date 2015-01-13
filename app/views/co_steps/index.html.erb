@@ -194,7 +194,7 @@
 					<p>デザイナー</p>
 				</div>
 		<div class="box_srcollbar_recruit">
-			<%= form_for @inquiry, :url => inquiry_confirm2_path do |f| %>
+			<%= form_for @inquiry, :url => inquiry_confirm2_path, :multipart => true do |f| %>
 			    <div class="page-header">
 			     
 			    </div>
@@ -226,6 +226,11 @@
 			      <tr>
 			        <th>お問い合わせ内容 *必須</th>
 			        <td><%= f.text_area :message %></td>
+			      </tr>
+			      <tr>
+			      	<th>Select File
+			     	<td> <%= f.file_field :file %></td>
+			      	</th>
 			      </tr>
 			    </table>
 			    <%= f.submit '確認', class: 'btn btn-primary' %>

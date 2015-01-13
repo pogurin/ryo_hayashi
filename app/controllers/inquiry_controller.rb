@@ -9,7 +9,7 @@ class InquiryController < ApplicationController
     # 入力値のチェック
     @inquiry = Inquiry.new(params[:inquiry])
     if @inquiry.valid?
-      # OK。確認画面を表示
+      # OK。確認画面を表示  
       render :action => 'confirm'
     else
       # NG。入力画面を再表示
@@ -22,6 +22,8 @@ class InquiryController < ApplicationController
     @inquiry = Inquiry.new(params[:inquiry])
     if @inquiry.valid?
       # OK。確認画面を表示
+      InquiryMailer.received_email(@inquiry).deliver
+
       render :action => 'confirm2'
     else
       # NG。入力画面を再表示
