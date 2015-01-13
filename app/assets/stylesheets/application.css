@@ -102,7 +102,7 @@
 .Menu-list {
   list-style-type: none;
   margin: 60px 0 0;
-  padding: 10px;
+  padding: 0px;
   padding-top: 90px;
 }
 .Menu-item {
@@ -121,15 +121,15 @@
 
 #logo-picture     {
 	margin-top: 30px;
-	margin-left: 20px;
-	margin-left: 10px;
+	margin-left: 30px;
+	margin-left: 15px;
 	margin-bottom: 20px;
 	z-index: 0;
 	background: url("co-step.jpg");
 	background-size: cover; /*ポイント!!!*/
 	width: 160px;
 	height: 100px; /*ここ変えて、収まった。*/
-
+	padding: 0px;
 }
 
 
