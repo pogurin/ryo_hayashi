@@ -140,7 +140,7 @@ h3 {
 	padding-top: 40px;
 	text-align: center;
 	background: #CCFFFF;
-   	height: 150vh;
+   	height: 100vh;
    	background: url("work.JPG") 50% 0 no-repeat fixed;
    	background-size: cover; /*ポイント!!!*/
 }
@@ -168,7 +168,7 @@ h3 {
     padding-top: 40px;
 	text-align: center;
 	background: #CCFFFF;
-   	height: 180vh;
+   	height: 120vh;
    	background: url("press.JPG") 50% 0 repeat fixed;
    	background-color: white;
    	background-size: cover; /*ポイント!!!*/
@@ -194,7 +194,7 @@ h3 {
 #recruit {
 	padding-top: 40px;
 	text-align: center;
-   	height: 200vh;
+   	height: 140vh;
    	background: url("recruit.JPG") 50% 0 no-repeat fixed;
    	background-size: cover; /*ポイント!!!*/
 
@@ -210,9 +210,9 @@ h3 {
 
 #vision {
 	text-align: center;
-   	height: 100%;
+   	height: 150%;
    	padding-top: 40px;
-   	padding-bottom:50px;
+   	padding-bottom:170px;
    	background: url("vision.JPG") 50% 0 no-repeat fixed;
    	background-size: cover; /*ポイント!!!*/
    	padding-left: 110px; 
@@ -264,8 +264,9 @@ Every box is 700px*/
 
 hr {
 	border-top: 3px solid black;
-	width: 700px;
-	margin-right:20%; 
+	width: 400px;
+	margin-right:40px; 
+	
 }
 
 #member hr {
@@ -290,8 +291,8 @@ hr {
 
 #company {
 	text-align: center;
-	padding-top:100px;
-   	height: 100vh;
+	padding-top:40px;
+   	height: 140vh;
    	background: url("company.JPG") 50% 0 no-repeat fixed;
    	background-color: white; /*背景色してい*/
    	background-size: cover; /*ポイント!!!*/

@@ -43,6 +43,7 @@
   z-index: 2;
 }
 .MenuIcon::before {
+
   -webkit-box-shadow: #999999 0 12px 0;
   box-shadow: #999999 0 12px 0;
   height: 6px;
