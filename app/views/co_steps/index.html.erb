@@ -85,7 +85,7 @@
 	
 	<div id="work">
 		<div class="textBlock"><div class="bg"></div>
-			<h2>Work</h2><br/>
+			
 			
 			<div class="contents">
 			<div style="overflow:auto;
@@ -117,6 +117,7 @@
         border-width: 5px;
         padding: 10px 50px 20px; 
         border-radius: 10px;
+         margin-top: 30px;
         z-index: -5;"><h2><%= link_to "Go to PORTFOLIO", works_path %> </h2>
 			</div>
 		</div>
@@ -127,7 +128,7 @@
 	<div id="press">
 		<div id="modal-content">
 			<div class="textBlock">
-				<h2>Press</h2><br/>	
+				
 				<div class="box_srcollbar">
 				   <h4>2014.07.22 学生・若手社会人向け求人サイト、「Co-Step」をリリース！</h4>
 
@@ -172,7 +173,7 @@
 	<div id="recruit">
 	   <div id="modal-content">
 		<div class="textBlock">
-					<h2>Recruit</h2><br/>
+					
 				<div class="box_srcollbar">
 					<p>当社では、積極的に採用を行っております。ご興味のある方はお気軽にお問い合わせください。</p>		
 
@@ -192,7 +193,7 @@
 					<p>エンジニア</p>
 					<p>デザイナー</p>
 				</div>
-		<div class="box_recruit">
+		<div class="box_srcollbar_recruit">
 			<%= form_for @inquiry, :url => inquiry_confirm2_path do |f| %>
 			    <div class="page-header">
 			     
@@ -237,6 +238,8 @@
 	<div id="vision">
 		<div class="textBlock">
 
+      
+
 	<div class="main">
         <div class="content">
 			<h2>Course ＋ Step</h2>
@@ -257,7 +260,7 @@
 			</div>
 		<div style="padding-top: 10px;">
         <div class="more">Click and see Mission Statement</div>
-
+        
       <div class="content">
       		<p>会社の目指す姿</p>
       		<hr />
@@ -281,6 +284,7 @@
 			「行動」という種蒔きを行うことでチャンスの芽を収穫することを心がけます。口先ばかりの机上
 			の理論ではなく、行動で示し、結果をしっかり出させる人材育成に努めます。</p>
 		</div>
+
 	</div>
 
 		
@@ -289,10 +293,10 @@
 
 	<div id="member">
 		<div class="textBlock">
-			<h2>Member</h2><br/>
-			<div class="box_srcollbar">
+			
+			<div class="box_srcollbar_member">
 
-				<a data-target="con1" class="modal-open"><div style="float:left"><img src="http://urx2.nu/g4Gb"><br>Ryo Hayashi<br>代表取締役 CEO</div></a>
+				<a data-target="con1" class="modal-open"><div style="float:left;"><img src="http://urx2.nu/g4Gb"><br>Ryo Hayashi<br>代表取締役 CEO</div></a>
 
 				<a data-target="con2" class="modal-open"><div style="float:left"><img src="http://urx2.nu/g4Gb"><br>Ryo Hayashi<br>代表取締役 CEO</div></a>
 
@@ -379,9 +383,9 @@
 	<div id="contact">
 		<div class="textBlock">
 		
-			<h2>Contact</h2><br/>
+			
 			<div style=" overflow:auto;
-        width:750px;
+        width:650px;
         height:150px;
         padding:5px;
         border:1px solid #000;
