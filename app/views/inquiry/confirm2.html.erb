@@ -64,8 +64,20 @@
         <%= simple_format(@inquiry.message) %>
       </td>
     </tr>
+      <tr>
+        <th>Select File</th>
+        <td> <%= f.file_field :file %></td>
+   
+        </th>
+      </tr>
+     <tr>
+      <th>送信</th>
+      <td>
+         <%= f.submit '送信', :class => 'btn btn-primary' %>
+      </td>
+    </tr>
   </table>
-  <%= f.submit '送信', :class => 'btn btn-primary' %>
+ 
 <% end %>
 
 </div>
