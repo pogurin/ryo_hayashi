@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.validate.min
 //= require_tree .
 
 $(document).ready(function() {
@@ -144,5 +145,10 @@ $(this).css('display','none');//押したボタンを非表示
 $(this).next('.content').slideDown('slow');
 $(this).nextAll('.more:first').css('display','block'); //次のボタンを表示
 });
+});
+
+
+$(document).ready(function() {
+	$("#new_inquiry").validate();
 });
 
