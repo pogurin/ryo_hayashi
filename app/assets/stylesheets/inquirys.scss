@@ -4,6 +4,7 @@
    	height: 100vh;
    	background: url("contact.JPG") 50% 0 no-repeat fixed;
    	background-size: cover; /*ポイント!!!*/
+
 }
 
 
@@ -71,21 +72,22 @@
 
 
 
-     .box_srcollbar_recruit_contact {
+     #box_srcollbar_recruit_contact {
      	text-align: center;
-        overflow:auto;
+        text-align:left; /*左詰め*/
         width:700px;
-        height:500px;
-        padding:5px;
+        height:300px;
+        
         border:1px solid #000;
        background-color:rgba(255,255,255,0.7);
         color:#000;
         font-size:12px;
         border-width: 5px;
-        padding: 10px 50px 20px; 
+       
         border-radius: 10px;
         z-index: -5;
         padding-left: 10px;
-        	text-align: center;
+
+        margin-left: 25%; /*左からのボックスの距離*/
     }
 

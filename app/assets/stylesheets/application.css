@@ -14,10 +14,10 @@
  *= require_self
  */
 
-/*ハンバーガーメニュー*/	
-.HiddenCheckbox {
-  display: none;
-}
+ /*ハンバーガーメニュー*/	
+ .HiddenCheckbox {
+ 	display: none;
+ }
 
 /*.MenuContainer {
   position: fixed;
@@ -31,248 +31,260 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
-}*/
+  }*/
 
-.MenuIcon {
-  cursor: pointer;
-  display: block;
-  float: left;
-  height: 30px;
-  position: fixed;
-  width: 30px;
-  z-index: 2;
-}
-.MenuIcon::before {
+  .MenuIcon {
+  	cursor: pointer;
+  	display: block;
+  	float: left;
+  	height: 30px;
+  	position: fixed;
+  	width: 30px;
+  	z-index: 2;
+  }
+  .MenuIcon::before {
 
-  -webkit-box-shadow: #999999 0 12px 0;
-  box-shadow: #999999 0 12px 0;
-  height: 6px;
-  -webkit-transform-origin: left top;
-  -ms-transform-origin: left top;
-  transform-origin: left top;
-  width: 30px;
-}
-.MenuIcon::after {
-  bottom: 0;
-  height: 6px;
-  -webkit-transform-origin: left bottom;
-  -ms-transform-origin: left bottom;
-  transform-origin: left bottom;
-  width: 30px;
-}
-.MenuIcon::before,
-.MenuIcon::after {
-  background: #999999;
-  display: block;
-  content: '';
-  position: absolute;
-  -webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.4s 0.2s;
-  transition: box-shadow 0.2s linear, transform 0.4s 0.2s;
-}
+  	-webkit-box-shadow: #999999 0 12px 0;
+  	box-shadow: #999999 0 12px 0;
+  	height: 6px;
+  	-webkit-transform-origin: left top;
+  	-ms-transform-origin: left top;
+  	transform-origin: left top;
+  	width: 30px;
+  }
+  .MenuIcon::after {
+  	bottom: 0;
+  	height: 6px;
+  	-webkit-transform-origin: left bottom;
+  	-ms-transform-origin: left bottom;
+  	transform-origin: left bottom;
+  	width: 30px;
+  }
+  .MenuIcon::before,
+  .MenuIcon::after {
+  	background: #999999;
+  	display: block;
+  	content: '';
+  	position: absolute;
+  	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.4s 0.2s;
+  	transition: box-shadow 0.2s linear, transform 0.4s 0.2s;
+  }
 
-.Menu {
-  bottom: 0;
-  left: -90%;
-  position: absolute;
-  top: 0;
-  width: 90%;
-  -webkit-transition: left 0.4s;
-  transition: left 0.4s;
-}
+  .Menu {
+  	bottom: 0;
+  	left: -90%;
+  	position: absolute;
+  	top: 0;
+  	width: 90%;
+  	-webkit-transition: left 0.4s;
+  	transition: left 0.4s;
+  }
 
-/*この辺が罰印になるやつ*/
-.HiddenCheckbox:checked ~ .MenuHeader {
-  opacity: 1;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-.HiddenCheckbox:checked ~ .MenuIcon::before {
-  -webkit-box-shadow: transparent 0 0 0;
-  box-shadow: transparent 0 0 0;
-  -webkit-transform: rotate(45deg) translate3d(6px, -3px, 0);
-  transform: rotate(45deg) translate3d(6px, -3px, 0);
-}
-.HiddenCheckbox:checked ~ .MenuIcon::after {
-  -webkit-transform: rotate(-45deg) translate3d(6px, 3px, 0);
-  transform: rotate(-45deg) translate3d(6px, 3px, 0);
-}
-.HiddenCheckbox:checked ~ .Menu {
-  left: 0;
-}
-.Menu-list {
-  list-style-type: none;
-  margin: 60px 0 0;
-  padding: 0px;
-  padding-top: 90px;
-}
-.Menu-item {
-  margin: 0;
-}
-
-
-
-/*ここまで*/
-
-#footer {
-	margin-left: 10px;
-	margin-top: 650px;
-	 z-index:2;
-   position: fixed;
-}
-
-#logo-picture     {
-	margin-top: 30px;
-	margin-left: 30px;
-	margin-left: 15px;
-	margin-bottom: 20px;
-	z-index: 0;
-	background: url("co-step.jpg");
-	background-size: cover; /*ポイント!!!*/
-	width: 160px;
-	height: 100px; /*ここ変えて、収まった。*/
-	padding: 0px;
-}
+  /*この辺が罰印になるやつ*/
+  .HiddenCheckbox:checked ~ .MenuHeader {
+  	opacity: 1;
+  	-webkit-transform: none;
+  	-ms-transform: none;
+  	transform: none;
+  }
+  .HiddenCheckbox:checked ~ .MenuIcon::before {
+  	-webkit-box-shadow: transparent 0 0 0;
+  	box-shadow: transparent 0 0 0;
+  	-webkit-transform: rotate(45deg) translate3d(6px, -3px, 0);
+  	transform: rotate(45deg) translate3d(6px, -3px, 0);
+  }
+  .HiddenCheckbox:checked ~ .MenuIcon::after {
+  	-webkit-transform: rotate(-45deg) translate3d(6px, 3px, 0);
+  	transform: rotate(-45deg) translate3d(6px, 3px, 0);
+  }
+  .HiddenCheckbox:checked ~ .Menu {
+  	left: 0;
+  }
+  .Menu-list {
+  	list-style-type: none;
+  	margin: 60px 0 0;
+  	padding: 0px;
+  	padding-top: 90px;
+  }
+  .Menu-item {
+  	margin: 0;
+  }
 
 
 
-#hideBox {
-	display: none;
-	z-index: 1;
-	background-color: #F8F8FF;
-	position: fixed;
-	height: 100%;
-	width: 15%;
-	opacity: 0.6;
-}
+  /*ここまで*/
 
-#pageTop {
-	font-family: 'Maven Pro';
-	font-size: 28px;
-	color: black;
-	text-decoration: none;
-	margin: 10px 20px 10px 20px;
-	display: float-left;
-	opacity: 1;
-}
+  #footer {
+  	margin-left: 10px;
+  	margin-top: 650px;
+  	z-index:2;
+  	position: fixed;
+  }
 
-.Menu-item {
-	font-family: 'Maven Pro';
-	font-size: 28px;
-	color: black;
-	text-decoration: none;
-	margin: 10px 20px 10px 20px;
-
-	display: float-left;
-	opacity: 1;
-}
-
-.Menu-item:hover, #pageTop:hover {
-	cursor: pointer;
-	color: #7c2728;
-}
-
-#nanairo-picture {
-	background-image: url("nanairo.png");
-	background-size: cover; /*ポイント!!!*/
-	width: 100%;
-	height: 100%; /*ここ変えて、収まった。*/
-}
-
-#nao-picture {
-	background-image: url("nao.png");
-	background-size: cover; /*ポイント!!!*/
-	width: 100%;
-	height: 100%; /*ここ変えて、収まった。*/
-}
-
-#fablearning-picture{
-	background-image: url("fablearning.png");
-	background-size: cover; /*ポイント!!!*/
-	width: 100%;
-	height: 100%; /*ここ変えて、収まった。*/
-}
-
-#fami-picture{
-	background-image: url("fami.png");
-	background-size: cover; /*ポイント!!!*/
-	width: 100%;
-	height: 100%; /*ここ変えて、収まった。*/
-}
+  #logo-picture     {
+  	margin-top: 30px;
+  	margin-left: 30px;
+  	margin-left: 15px;
+  	margin-bottom: 20px;
+  	z-index: 0;
+  	background: url("co-step.jpg");
+  	background-size: cover; /*ポイント!!!*/
+  	width: 160px;
+  	height: 100px; /*ここ変えて、収まった。*/
+  	padding: 0px;
+  }
 
 
-/*ここからモーダル写真*/
 
-.modal-content img {
-  margin-top: 30px;
-  margin-left: 15px;
-  
-  z-index: 0;
-  height: 5px;
-  width: 5px;
-  
-  border: 4px solid black;
+  #hideBox {
+  	display: none;
+  	z-index: 1;
+  	background-color: #F8F8FF;
+  	position: fixed;
+  	height: 100%;
+  	width: 15%;
+  	opacity: 0.6;
+  }
 
-}
+  #pageTop {
+  	font-family: 'Maven Pro';
+  	font-size: 28px;
+  	color: black;
+  	text-decoration: none;
+  	margin: 10px 20px 10px 20px;
+  	display: float-left;
+  	opacity: 1;
+  }
 
-.modal-content {
-    position:fixed;
-    display:none;
-    z-index:2;
-    width:50%;
-    height: 70%;
-    margin:0;
-    padding:10px 20px;
-    border:2px solid #aaa;
-    background:#fff;
-     overflow:auto;
-}
+  .Menu-item {
+  	font-family: 'Maven Pro';
+  	font-size: 28px;
+  	color: black;
+  	text-decoration: none;
+  	margin: 10px 20px 10px 20px;
 
-.modal-content p {
-    margin:0;
-    padding:0;
-    border-radius: 10px;
-}
+  	display: float-left;
+  	opacity: 1;
+  }
 
-.modal-overlay {
-    z-index:1;
-    display:none;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:120%;
-    background-color:rgba(0,0,0,0.75);
-}
+  .Menu-item:hover, #pageTop:hover {
+  	cursor: pointer;
+  	color: #7c2728;
+  }
 
-.modal-open {
-    color:black;
-    font-size:20px;
-    text-decoration:underline;
-    font-family: 'Maven Pro';
-}
+  #nanairo-picture {
+  	background-image: url("nanairo.png");
+  	background-size: cover; /*ポイント!!!*/
+  	width: 100%;
+  	height: 100%; /*ここ変えて、収まった。*/
+  }
 
-/*マウスオーバーの際の色の変化*/
-.modal-open:hover {
-    cursor:pointer;
-    color:white;
-}
+  #nao-picture {
+  	background-image: url("nao.png");
+  	background-size: cover; /*ポイント!!!*/
+  	width: 100%;
+  	height: 100%; /*ここ変えて、収まった。*/
+  }
 
-.modal-close {
-    color:#00f;
-    text-decoration:underline;
-}
+  #fablearning-picture{
+  	background-image: url("fablearning.png");
+  	background-size: cover; /*ポイント!!!*/
+  	width: 100%;
+  	height: 100%; /*ここ変えて、収まった。*/
+  }
 
-.modal-close:hover {
-    cursor:pointer;
-    color:#f00;
-}
+  #fami-picture{
+  	background-image: url("fami.png");
+  	background-size: cover; /*ポイント!!!*/
+  	width: 100%;
+  	height: 100%; /*ここ変えて、収まった。*/
+  }
 
 
-/*リクルート画面のCSS*/
-.recruit-layout {
-	
-	background: url("work.JPG") 50% 0 no-repeat fixed;
-	height: 250vh;
-	background-size: cover; /*ポイント!!!*/
-}
+  /*ここからモーダル写真*/
+
+  .modal-content img {
+  	margin-top: 30px;
+  	margin-left: 15px;
+  	float: left;
+  	z-index: 0;
+  	height: 5px;
+  	width: 5px;
+  	margin-bottom: 20px;
+  	border: 4px solid black;
+  	border-radius: 10px;
+  	text-align: center;
+
+  }
+
+
+  .modal-content p {
+  	padding-left:10px;
+  	padding:0;
+  	border-radius: 50px;
+  	text-align: right;
+  }
+
+  .modal-content {
+  	position:fixed;
+  	display:none;
+  	z-index:2;
+  	width:50%;
+  	height: 70%;
+  	margin:0;
+  	padding:10px 20px;
+  	border:2px solid #aaa;
+  	background:#fff;
+  	overflow:auto;
+  }
+
+  .modal-content h4 {
+  	padding-left: 30%;
+  	padding-top: 50px;
+  	border-radius: 10px;
+  	text-align: left;
+  }
+
+
+  .modal-overlay {
+  	z-index:1;
+  	display:none;
+  	position:fixed;
+  	top:0;
+  	left:0;
+  	width:100%;
+  	height:120%;
+  	background-color:rgba(0,0,0,0.75);
+  }
+
+  .modal-open {
+  	color:black;
+  	font-size:20px;
+  	text-decoration:underline;
+  	font-family: 'Maven Pro';
+  }
+
+  /*マウスオーバーの際の色の変化*/
+  .modal-open:hover {
+  	cursor:pointer;
+  	color:white;
+  }
+
+  .modal-close {
+  	color:#00f;
+  	text-decoration:underline;
+  }
+
+  .modal-close:hover {
+  	cursor:pointer;
+  	color:#f00;
+  }
+
+
+  /*リクルート画面のCSS*/
+  .recruit-layout {
+
+  	background: url("work.JPG") 50% 0 no-repeat fixed;
+  	height: 250vh;
+  	background-size: cover; /*ポイント!!!*/
+  }
