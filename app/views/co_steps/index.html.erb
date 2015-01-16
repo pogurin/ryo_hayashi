@@ -25,6 +25,23 @@
 	$('#nav').localScroll();
 	})
 	</script>
+
+	<style type="text/css">
+
+
+textarea {
+width: 300px;
+height: 10em;
+}
+
+.client-request {
+    width: 200px;
+    height: 15px;
+}
+
+
+</style>
+
 </head>
 <body>
 
@@ -216,23 +233,23 @@
 			   
 			    <table class="table">
 			      <tr>
-			        <th>名前<span class="text-danger">*必須</span></th>
-			        <td><%= f.text_field :name, placeholder: "お名前",:required => true  %></td>
+			        <th>名前<span class="text-danger">(必須)</span></th>
+			        <td><%= f.text_field :name, placeholder: "お名前",:required => true ,class: "client-request"%></td>
 			      </tr>
 			      <tr>
-			        <th>メールアドレス<span class="text-danger">*必須</span></th>
-			        <td><%= f.text_field :email , placeholder: "sample@gmail.com", :required => true %></td>
+			        <th>メールアドレス<span class="text-danger">(必須)</span></th>
+			        <td><%= f.text_field :email , placeholder: "sample@gmail.com", :required => true ,class: "client-request" %></td>
 			      </tr>
 			        <tr>
-					<th>メールアドレス(確認用)<span class="text-danger">*必須</span></th>
-					<td><%= f.text_field :email %></td>
+					<th>メールアドレス(確認用)<span class="text-danger"></span></th>
+					<td><%= f.text_field :email ,:required => true, placeholder: "sample@gmail.com", class: "client-request" %></td>
 					</tr>
 			      <tr>
-			        <th>志望理由 *必須</th>
-			        <td><%= f.text_area :message,:required => true %></td>
+			        <th></th>
+			        <td><%= f.text_area :message,:required => true,  placeholder: "志望理由(必須)" %></td>
 			      </tr>
 			      <tr>
-			      	<th>履歴書・職務経歴書	(option)
+			      	<th>履歴書・職務経歴書	(optional)
 			     	<td> <%= f.file_field :file %></td>
 			      	</th>
 			      </tr>
@@ -427,25 +444,26 @@
 		      </div>
 		    <% end %>
 		   
-		    <table class="table">
-		      <tr>
-		        <th>名前<span class="text-danger">*必須</span></th>
-		        <td><%= f.text_field :name , placeholder: "お名前", :required => true %></td>
-		      </tr>
-		      <tr>
-		        <th>メールアドレス<span class="text-danger">*必須</span></th>
-		        <td><%= f.text_field :email ,:required => true , placeholder: "sample@gmail.com"%></td>
-		      </tr>
-		        <tr>
-				<th>メールアドレス(確認用)<span class="text-danger">*必須</span></th>
-				<td><%= f.text_field :email %></td>
-				</tr>
-		      <tr>
-		        <th>お問い合わせ内容 *必須</th>
-		        <td><div id="contact_box"><%= f.text_area :message, :required => true%></div></td>
-		      </tr>
-		    </table>
-		    <%= f.submit '確認', class: 'btn btn-primary' %>
+		   <table class="table">
+			      <tr>
+			        <th>名前<span class="text-danger">(必須)</span></th>
+			        <td><%= f.text_field :name, placeholder: "お名前",:required => true ,class: "client-request"%></td>
+			      </tr>
+			      <tr>
+			        <th>メールアドレス<span class="text-danger">(必須)</span></th>
+			        <td><%= f.text_field :email , placeholder: "sample@gmail.com", :required => true ,class: "client-request" %></td>
+			      </tr>
+			        <tr>
+					<th>メールアドレス(確認用)<span class="text-danger"></span></th>
+					<td><%= f.text_field :email ,:required => true,  placeholder: "sample@gmail.com",class: "client-request" %></td>
+					</tr>
+			      <tr>
+			        <th></th>
+			        <td><%= f.text_area :message,:required => true , placeholder: "お問い合わせ内容(必須)"%></td>
+			      </tr>
+			    
+			    </table>
+		    <%= f.submit '送信', class: 'btn btn-primary' %>
 		  <% end %>
 		 </div>
 
