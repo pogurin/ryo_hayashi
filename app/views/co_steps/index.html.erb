@@ -201,7 +201,7 @@
 					<p>デザイナー</p>
 				</div>
 		<div class="box_srcollbar_recruit">
-			<%= form_for @inquiry ,:url => inquiry_confirm2_path, :multipart => true do |f| %>
+			<%= form_for @inquiry ,:url => inquiry_thanks2_path, :multipart => true do |f| %>
 			  
 			    <% if @inquiry.errors.any? %> 
 			      <div class="alert alert-danger" role="alert">
@@ -217,7 +217,7 @@
 			    <table class="table">
 			      <tr>
 			        <th>名前<span class="text-danger">*必須</span></th>
-			        <td><%= f.text_field :name, placeholder: "お名前",:required => true %></td>
+			        <td><%= f.text_field :name, placeholder: "お名前",:required => true  %></td>
 			      </tr>
 			      <tr>
 			        <th>メールアドレス<span class="text-danger">*必須</span></th>
@@ -232,12 +232,12 @@
 			        <td><%= f.text_area :message,:required => true %></td>
 			      </tr>
 			      <tr>
-			      	<th>Select File
+			      	<th>履歴書・職務経歴書	(option)
 			     	<td> <%= f.file_field :file %></td>
 			      	</th>
 			      </tr>
 			    </table>
-			    <%= f.submit '確認', class: 'btn btn-primary' %>
+			    <%= f.submit '送信', class: 'btn btn-primary' %>
 			  <% end %>
 		</div>
 		</div>
@@ -411,7 +411,7 @@
 		
 
 	<div class="contact_box">
-		  <%= form_for @inquiry, :url => inquiry_confirm_path do |f| %>
+		  <%= form_for @inquiry, :url => inquiry_thanks_path do |f| %>
 		    <div class="page-header">
 		     
 		    </div>

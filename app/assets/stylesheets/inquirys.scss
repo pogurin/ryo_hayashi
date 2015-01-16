@@ -2,11 +2,18 @@
 	text-align: center;
 	background: #CCFFFF;
    	height: 100vh;
-   	background: url("bubbles.png") 50% 0 repeat fixed;
+   	background: url("contact.JPG") 50% 0 no-repeat fixed;
+   	background-size: cover; /*ポイント!!!*/
 }
 
 
-
+.inquiry-layout-recruit {
+	text-align: center;
+	background: #CCFFFF;
+   	height: 100vh;
+   	background: url("recruit.JPG") 50% 0 no-repeat fixed;
+   	background-size: cover; /*ポイント!!!*/
+}
 
 
 .table {
