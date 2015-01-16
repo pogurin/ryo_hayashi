@@ -258,7 +258,9 @@ height: 10em;
 			      	</th>
 			      </tr>
 			    </table>
-			    <%= f.submit '送信する', class: 'btn btn-primary' %>
+			    <label>
+			    <%= f.submit '送信する', id: "submit_button" %>
+			    </label>
 			  <% end %>
 		</div>
 		</div>
@@ -268,7 +270,7 @@ height: 10em;
 	<div id="vision">
 		<div class="textBlock">
 	<div class="main">
-        <div class="content">
+       
 			<h2>Course ＋ Step</h2>
 		<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(進路を）共に&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -284,7 +286,7 @@ height: 10em;
 
         </div>
 
-			</div>
+	
 		<div style="padding-top: 10px;">
         <div class="more">＜Click and see our Mission Statement＞</div>
         
@@ -468,7 +470,9 @@ height: 10em;
 			      <tr>
 			    
 			    </table>
-		    <%= f.submit '送信する', class: 'btn btn-primary' %>
+			    
+		    <%= f.submit '送信する', id: "submit_button" %>
+		    
 		  <% end %>
 		 </div>
 
