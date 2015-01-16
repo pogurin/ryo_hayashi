@@ -229,7 +229,7 @@ h3 {
    	background: url("vision.JPG") 50% 0 no-repeat fixed;
    	background-size: cover; /*ポイント!!!*/
    	padding-left: 110px; 
-   
+
 
    	 /*背景色してい*/
 }
@@ -491,7 +491,8 @@ hr {
 	width: 100%;
 	background: white;
 	text-align: center;
-	margin-left: 20px;
+	
+		background-size: cover; /*ポイント!!!*/
 }
 
 #projects > h2{
