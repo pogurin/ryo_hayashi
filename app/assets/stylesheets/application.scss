@@ -216,9 +216,9 @@ h3 {
 
 
 #link_to_portfolio {
-  padding-top: 10px;
-    padding-left:17%;
-  padding-right: 20px;
+  // padding-top: 10px;
+  //   padding-left:17%;
+  // padding-right: 20px;
 }
 
 #work {
@@ -230,6 +230,10 @@ h3 {
     height: 100vh;
     background: url("work.JPG") 50% 0 no-repeat fixed;
     background-size: cover; /*ポイント!!!*/
+}
+
+#work p {
+  font-size: 17px
 }
 
   #press {
