@@ -152,3 +152,5 @@ $(document).ready(function() {
 	$("#new_inquiry").validate();
 });
 
+
+// テスト
