@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.validate.min
-//= require_tree .
+//= require bootstrap-sprockets
 
 $(document).ready(function() {
 
