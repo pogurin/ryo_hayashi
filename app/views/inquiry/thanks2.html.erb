@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Co-Step</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+	<body>	
+
+		<nav>
+			<div id="hideBox">
+				<div id="logo-picture"></div>
+				<p class="nButton" id="pageTop" ><%= link_to "Home", co_steps_path %></p>
+			</div>
+		</nav>
+		
+		<div class="inquiry-layout-recruit">
+			<div id="box_srcollbar_recruit_contact">
+					<p>
+					  お問い合わせいただきありがとうございました。
+					</p>
+					<p>株式会社Co-Stepに関心をお持ちいただきありがとうございます。選考結果については原則、2週間以内にご連絡させて頂きます。なお、入社日は相談に応じますので、ご相談下さい。</p>
+			</div>
+		</div>
+	</body>
+</html>
